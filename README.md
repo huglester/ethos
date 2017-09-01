@@ -18,11 +18,14 @@ claymore=proxypool1 eth-eu.dwarfpool.com:8008
 miner 4502ed claymore
 miner 4503b1 claymore
 miner 4503de claymore
+miner 43d2c1 claymore
+
 
 # RENAME
 loc 4502ed orel
 loc 4503b1 dikobraz
 loc 4503de zoborozec
+loc 43d2c1 norek
 
 # individual miner configs
 #rx400
