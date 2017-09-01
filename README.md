@@ -16,6 +16,11 @@ claymore=proxypool1 eth-eu.dwarfpool.com:8008
 
 #RX470
 miner 4502ed claymore
+miner 4503b1 claymore
+
+
+loc 4502ed orel
+loc 4503b1 dikobraz
 
 
 # individual miner configs
