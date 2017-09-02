@@ -19,6 +19,7 @@ miner 4502ed claymore
 miner 4503b1 claymore
 miner 4503de claymore
 miner 44fede claymore
+miner 45035a claymore
 
 #miner ewbf-zcash
 
@@ -27,6 +28,7 @@ loc 4502ed orel
 loc 4503b1 dikobraz
 loc 4503de zoborozec
 loc 44fede norek
+loc 45035a vacice
 
 # individual miner configs
 #rx400
