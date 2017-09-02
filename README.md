@@ -24,6 +24,7 @@ miner 450444 claymore
 
 #GTX 1060
 miner 45038f ewbf-zcash
+miner 450358 ewbf-zcash
 
 # RENAME
 loc 4502ed orel
@@ -33,6 +34,7 @@ loc 44fede norek
 loc 45035a vacice
 loc 450444 vyr
 loc 45038f orangutan
+loc 450358 datel
 
 
 
