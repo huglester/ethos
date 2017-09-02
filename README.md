@@ -1,12 +1,12 @@
-#globalminer ethminer
 maxgputemp 90 
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 85
 
-#ZEN
-#claymore-zcash=proxywallet znR7bVWXa1ih1ebSrtPLb45X6uQjXvaFFV7
-#claymore-zcash=proxypool1 ssl://luckpool.org:3058
+#ZEN - NVIDIA
+ewbf-zcash=proxywallet znWNJCtEwkp94kK4hQ4fbHENKgyBST365Ng
+ewbf-zcash=proxypool1 ssl://eu.zenmine.pro:9999 
+ewbf-zcash=proxypool2 ssl://eu1.zenmine.pro:9999 
 
 #ETH
 claymore=proxywallet 0xeb881d4937b63abae988a41affd121c08cbc2a03
@@ -20,6 +20,7 @@ miner 4503b1 claymore
 miner 4503de claymore
 miner 44fede claymore
 
+#miner ewbf-zcash
 
 # RENAME
 loc 4502ed orel
@@ -48,22 +49,6 @@ loc 44fede norek
 
 
 
-
-# KNOWN GOOD WORKING GLOBAL CONFIG FOR AMDGPU
-# NOTE: globalpowertune is DPM state range 0-7, set lower for lower power usage, set higher if overclocking.
-# ------------------------------------------------------
-# globalpowertune 4
-# ------------------------------------------------------
-#
-# SAMPLE PER-RIG CONFIG FOR AMDGPU (for a 6-gpu rig)
-# NOTE: pwr is DPM state range 0-7, set lower for lower power usage, set higher if overclocking.
-# ------------------------------------------------------
-# cor e73874 1180 1180 1180 1180 1180 1180
-# mem e73874 2150 2150 2150 2150 2150 2150
-# pwr e73874 4 4 4 4 4 4 
-# ------------------------------------------------------
-#
-
 # ethOS Pool: ethosdistro.com/pool
 #
 # QUICK START GUIDE: ethosdistro.com/kb/#quick-start-guide
@@ -85,7 +70,7 @@ loc 44fede norek
 # proxywallet 0x0bdC4F12fB57d3acA9C3cF72B7AA2789A20d27f2
 # proxypool1 us1.ethermine.org:4444
 # proxypool2 us2.ethermine.org:4444
-# flags --farm-recheck 200
+# flags --cl-global-work 8192 --farm-recheck 200
 # globalcore 1000
 # globalmem 1250
 # globalfan 90
@@ -99,7 +84,7 @@ loc 44fede norek
 # EXPLANATION OF SETTINGS THAT APPLY TO ALL RIGS
 # If using "pool" parameter, write WORKER (a placeholder variable) in place of rig name (i.e. NOT rig1, myrig, home, warehouse2, etc).
 #
-# globalminer:		set global miner (ethminer, sgminer-gm, claymore, zcash-miner, optiminer-zcash, sgminer-gm-xmr, claymore-zcash
+# globalminer:		set global miner (ethminer, sgminer-gm, claymore, claymore-zcash, optiminer-zcash, sgminer-gm-xmr, ewbf-zcash) ewbf-zcash is for zcash on nvidia
 # maxgputemp:           the temperature in C that your GPUs will trigger the miner to turn off
 # stratumproxy:         enabled/disabled/miner/nicehash (enabled by default; disabled: pool option, nicehash: nicehash support, miner: internal miner proxy)
 # proxywallet:          the address to which this rig's proxy will mine (only used if stratumproxy is not disabled)
@@ -109,11 +94,11 @@ loc 44fede norek
 # globalcore:           set the global core clock of all GPUs
 # globalmem:            set the global mem clock of all GPUs
 # globalfan:            set the fan speed percent (0-100)
-# globalpowertune:      set the power tune setting of all GPUs (notes from dev: 20 is default/max on everything except 290/390; r9 290 should use 50)
+# globalpowertune:      set the power tune setting of all GPUs (r9 290/x/390/x should use 50; RX should use 4-7 depending on overclock; for nvidia, this is watt limit)
 # autoreboot:           set to a number (autoreboot 3), allow rigs to autoreboot if they soft crash (max of 3 reboots, run clear-thermals to reset counter)
 # custompanel:          set ethosdistro.com panel ID, exactly 12 characters, first 6 is your preferred panel ID, last 6 is your private key
 # lockscreen:		lock the ethOS desktop upon boot
-# globaldesktop:	set ethOS to headless mode by setting like "globaldesktop disabled" (only works for AMDGPU driver)
+# globaldesktop:	login prompt user/pass is ethos/live, set ethOS to headless mode by setting like "globaldesktop disabled" (only works for RX/AMDGPU)
 # pool:                 only used with stratumproxy disabled, use this if you have a network proxy or getwork pool (example: http://pool.com:port/WORKER )
 #
 # PER-RIG STYLE CONFIG SETTINGS THAT APPLY TO INDIVIDUAL RIGS (AND THEIR RESPECTIVE INDIVIDUAL GPUS)
@@ -127,7 +112,7 @@ loc 44fede norek
 # mem c94e13 1250 1500 1500 1250 1250
 # fan c94e13 90 80 85 100 70
 # pwr c94e13 10 20 15 15 20
-# vlt c94e13 0 1.118 0 0 1.118
+# vlt c94e13 0 1118 0 0 1118
 # ------------------------------------------------------
 #
 # SAMPLE FORMAT: 
@@ -151,15 +136,15 @@ loc 44fede norek
 # fan [worker]: set the fan speed of individual GPUs on a single rig
 # pwr [worker]: set the powertune of individual GPUs on a single rig
 # vlt [worker]: set the voltage (EXPERIMENTAL, MAY NOT WORK!) of individual GPUs on a single rig
-# miner [worker]: set miner (ethminer, sgminer-gm, claymore, zcash-miner, optiminer-zcash, sgminer-gm-xmr, claymore-zcash  
+# miner [worker]: set miner (ethminer, sgminer-gm, claymore, zcash-miner, optiminer-zcash, sgminer-gm-xmr, claymore-zcash, ewbf-zcash) ewbf-zcash is for zcash on nvidia
 # flg [worker]: set the flags of a single rig (applies to all GPUs on the rig)
 # mxt [worker]: set the maxgputemp of a single rig (applies to all GPUs on the rig)
 # reb [worker]: increment this value (example: 4 becomes 5) and the single rig will automatically reboot within 10 minutes
 # loc [worker]: set a maximum 8-letter code for rack/location information on a single rig (each rig MUST have a different code, or it will not report to panel)
 # sel [worker]: set the GPUs that should mine, default is no sel flag set, all GPUs may mine)
 # off [worker]: do not start the miner on boot (no such thing as "on", remove entire line to let miner start)
-# driverless [worker]: force the rig to boot without graphics driver, for debugging purposes (this will turn off mining)
-# desktop [worker]: set ethOS to headless mode by setting like "desktop [worker] disabled" (only works for AMDGPU driver)
+# driverless [worker]: login prompt user/pass is ethos/live, force the rig to boot without graphics driver, for debugging purposes (this will turn off mining)
+# desktop [worker]: login prompt user/pass is ethos/live, set ethOS to headless mode by setting like "desktop [worker] disabled" (only works for RX/AMDGPU)
 #
 # PER-BIOS STYLE CONFIG SETTINGS THAT APPLY TO CLASS OF GPU, BASED ON GPU BIOS NAME
 # DO NOT USE IN SINGLE-RIG MODE
@@ -173,7 +158,7 @@ loc 44fede norek
 # mem 113-C6711101-100 1250
 # fan 113-C6711101-100 100
 # pwr 113-C6711101-100 50
-# vlt 113-C6711101-100 1.118
+# vlt 113-C6711101-100 1118
 # ------------------------------------------------------
 #
 # SAMPLE RX 400 SERIES CONFIG
@@ -183,7 +168,7 @@ loc 44fede norek
 # KNOWN GOOD WORKING GLOBAL CONFIG FOR AMDGPU
 # NOTE: globalpowertune is DPM state range 0-7, set lower for lower power usage, set higher if overclocking.
 # ------------------------------------------------------
-# globalpowertune 4
+# globalpowertune 5
 # ------------------------------------------------------
 #
 # SAMPLE PER-RIG CONFIG FOR AMDGPU (for a 6-gpu rig)
@@ -191,7 +176,7 @@ loc 44fede norek
 # ------------------------------------------------------
 # cor c94e13 1180 1180 1180 1180 1180 1180
 # mem c94e13 2150 2150 2150 2150 2150 2150
-# pwr c94e13 4 4 4 4 4 4 
+# pwr c94e13 7 7 7 7 7 7
 # ------------------------------------------------------
 #
 # IN MULTI-RIG MODE, EXAMPLES OF MULTIPLE POOLS/WALLETS/PASSWORDS
