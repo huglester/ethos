@@ -5,8 +5,8 @@ globalfan 85
 
 #ZEN - NVIDIA
 ewbf-zcash=proxywallet znWNJCtEwkp94kK4hQ4fbHENKgyBST365Ng
-ewbf-zcash=proxypool1 ssl://eu.zenmine.pro:9999 
-ewbf-zcash=proxypool2 ssl://eu1.zenmine.pro:9999 
+ewbf-zcash=proxypool1 eu.zenmine.pro:9009 
+ewbf-zcash=proxypool2 eu1.zenmine.pro:9009
 
 #ETH
 claymore=proxywallet 0xeb881d4937b63abae988a41affd121c08cbc2a03
