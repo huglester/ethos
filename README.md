@@ -21,6 +21,7 @@ miner 4503de claymore
 miner 44fede claymore
 miner 45035a claymore
 miner 450444 claymore
+miner 4504ca claymore
 
 #GTX 1060
 miner 45038f ewbf-zcash
@@ -37,6 +38,7 @@ loc 450444 vyr
 loc 45038f orangutan
 loc 450358 datel
 loc 44ffe1 velbloud
+loc 4504ca racek
 
 
 
