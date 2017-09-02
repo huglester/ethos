@@ -3,18 +3,18 @@ stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 85
 
-#ZEN - NVIDIA
+# ZEN - NVIDIA
 ewbf-zcash=proxywallet znWNJCtEwkp94kK4hQ4fbHENKgyBST365Ng
 ewbf-zcash=proxypool1 eu.zenmine.pro:9009 
 ewbf-zcash=proxypool2 eu1.zenmine.pro:9009
 
-#ETH
+# ETH
 claymore=proxywallet 0xeb881d4937b63abae988a41affd121c08cbc2a03
 claymore=proxypool1 eth-eu.dwarfpool.com:8008
-#claymore=proxypool2 musicoin.nomnom.technology:9999
+# claymore=proxypool2 musicoin.nomnom.technology:9999
 
 
-#RX470
+# RX 470
 miner 4502ed claymore
 miner 4503b1 claymore
 miner 4503de claymore
@@ -23,7 +23,7 @@ miner 45035a claymore
 miner 450444 claymore
 miner 4504ca claymore
 
-#GTX 1060
+# GTX 1060
 miner 45038f ewbf-zcash
 miner 450358 ewbf-zcash
 miner 44ffe1 ewbf-zcash
@@ -41,26 +41,32 @@ loc 44ffe1 velbloud
 loc 4504ca racek
 
 
+# GTX 1060
+# ----------------------------------------------
+# orangutan
+# pwr 45038f 75 75 75 75 75 75
+# cor 45038f 1700 1700 1700 1700 1700 1700
+# mem 45038f 4550 4550 4550 4550 4550 4550
+# ----------------------------------------------
+# datel
+# pwr 450358 75 75 75 75 75 75
+# cor 450358 1700 1700 1700 1700 1700 1700
+# mem 450358 4550 4550 4550 4550 4550 4550
+# ----------------------------------------------
+# velbloud
+pwr 44ffe1 75 75 75 75 75 75
+cor 44ffe1 1700 1700 1700 1700 1700 1700
+mem 44ffe1 4550 4550 4550 4550 4550 4550
+# ----------------------------------------------
+
+# REBOOT
+# reb 7a18a6 1
 
 
-# individual miner configs
-#rx400
-#miner 7a18a6 claymore 
 
 
-#r9
-#miner 675c5f claymore-zcash
 
-#rx400
-#reb 7a18a6 23
 
-#r9
-#reb 675c5f 20
-
-#rx400
-#pwr 7a18a6 5 5 5 5 5 5
-#cor 7a18a6 1236 1169 1169 1256 1169 1169
-#mem 7a18a6 2000 2000 2000 2000 2000 2000
 
 
 
