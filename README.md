@@ -11,10 +11,10 @@ ewbf-zcash=proxypool2 eu1.zenmine.pro:9009
 # ETH + SC
 claymore=proxywallet 0xeb881d4937b63abae988a41affd121c08cbc2a03
 claymore=proxypool1 eth-eu.dwarfpool.com:8008
-dualminer enabled
-dualminer-coin sia
-dualminer-pool sia-eu1.nanopool.org:7777
-dualminer-wallet 724399b411d7e528de9a0ba2296b8c653eea5507d1004640a6037e1409f08c1bf67cc6b7d2d0
+# dualminer enabled
+# dualminer-coin sia
+# dualminer-pool sia-eu1.nanopool.org:7777
+# dualminer-wallet 724399b411d7e528de9a0ba2296b8c653eea5507d1004640a6037e1409f08c1bf67cc6b7d2d0
 
 # claymore=proxypool2 musicoin.nomnom.technology:9999
 
@@ -29,7 +29,7 @@ miner 450444 claymore
 miner 4504ca claymore
 
 # GTX 1060
-miner 45038f ewbf-zcash
+miner 45038f claymore
 miner 450358 claymore
 miner 44ffe1 claymore
 
@@ -49,9 +49,9 @@ loc 4504ca racek
 # GTX 1060
 # ----------------------------------------------
 # orangutan
-pwr 45038f 75 75 75 75 75 75
-cor 45038f 1700 1700 1700 1700 1700 1700
-mem 45038f 4100 4100 4100 4100 4100 4100
+# pwr 45038f 75 75 75 75 75 75
+# cor 45038f 1700 1700 1700 1700 1700 1700
+# mem 45038f 4100 4100 4100 4100 4100 4100
 # ----------------------------------------------
 # datel
 # pwr 450358 75 75 75 75 75 75
