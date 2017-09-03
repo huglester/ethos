@@ -11,10 +11,10 @@ ewbf-zcash=proxypool2 eu1.zenmine.pro:9009
 # ETH + SC
 claymore=proxywallet 0xeb881d4937b63abae988a41affd121c08cbc2a03
 claymore=proxypool1 eth-eu.dwarfpool.com:8008
-claymore=dualminer enabled
-claymore=dualminer-coin sia
-claymore=dualminer-pool sia-eu1.nanopool.org:7777
-claymore=dualminer-wallet 724399b411d7e528de9a0ba2296b8c653eea5507d1004640a6037e1409f08c1bf67cc6b7d2d0
+dualminer enabled
+dualminer-coin sia
+dualminer-pool sia-eu1.nanopool.org:7777
+dualminer-wallet 724399b411d7e528de9a0ba2296b8c653eea5507d1004640a6037e1409f08c1bf67cc6b7d2d0
 
 # claymore=proxypool2 musicoin.nomnom.technology:9999
 
