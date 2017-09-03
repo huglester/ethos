@@ -14,7 +14,7 @@ claymore=proxypool1 eth-eu.dwarfpool.com:8008
 # dualminer enabled
 # dualminer-coin sia
 # dualminer-pool sia-eu1.nanopool.org:7777
-# dualminer-wallet 724399b411d7e528de9a0ba2296b8c653eea5507d1004640a6037e1409f08c1bf67cc6b7d2d0
+# dualminer-wallet b0c9fd2648d36d8e26b9ac2edb75c1f6320c61fb0008f66734e3ad12b55e7869d917679e91dd
 
 # claymore=proxypool2 musicoin.nomnom.technology:9999
 
