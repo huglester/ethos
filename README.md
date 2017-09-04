@@ -28,6 +28,10 @@ miner 45035a claymore
 miner 450444 claymore
 miner 4504ca claymore
 
+# velin_pc01
+miner 8ec0de claymore
+pwr 8ec0de 6 6 6 6 6 6
+
 # GTX 1060
 miner 45038f ewbf-zcash
 miner 450358 ewbf-zcash
@@ -35,7 +39,6 @@ miner 44ffe1 ewbf-zcash
 
 # RENAME
 loc 4502ed orel
-# daman was dikobraz
 loc 4503b1 daman
 loc 4503de zoborozec
 loc 44fede norek
