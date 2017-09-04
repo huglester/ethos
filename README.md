@@ -35,7 +35,8 @@ miner 44ffe1 ewbf-zcash
 
 # RENAME
 loc 4502ed orel
-loc 4503b1 dikobraz
+# daman was dikobraz
+loc 4503b1 daman
 loc 4503de zoborozec
 loc 44fede norek
 loc 45035a vacice
