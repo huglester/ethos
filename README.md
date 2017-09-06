@@ -111,8 +111,7 @@ pwr 44ffe1 80 80 80 80 80 80
 
 # REBOOT
 reb 44fede 1
-reb 4502ed 1
-
+reb 4502ed 2
 
 
 
