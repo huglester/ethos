@@ -27,6 +27,8 @@ miner 44fede claymore
 miner 45035a claymore
 miner 450444 claymore
 miner 4504ca claymore
+miner 413d76 claymore
+
 
 # velin_pc01
 miner 8ec0de claymore
