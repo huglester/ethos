@@ -28,6 +28,7 @@ miner 45035a claymore
 miner 450444 claymore
 miner 4504ca claymore
 miner 413d76 claymore
+miner 413699 claymore
 
 
 # velin_pc01
@@ -52,6 +53,7 @@ loc 450358 datel
 loc 44ffe1 velbloud
 loc 4504ca racek
 loc 413d76 zajic
+loc 413699 netopyr
 
 # RX 470
 # ----------------------------------------------
