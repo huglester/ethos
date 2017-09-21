@@ -49,6 +49,7 @@ loc 45038f orangutan
 loc 450358 datel
 loc 44ffe1 velbloud
 loc 4504ca racek
+loc 413d76 zajic
 
 # RX 470
 # ----------------------------------------------
