@@ -57,7 +57,7 @@ loc 4504ca racek
 loc 413d76 zajic
 loc 413699 netopyr
 # loc 40e99b
-# loc 413d3c
+loc 413d3c dikobraz
 # loc 413d29
 
 # RX 470
