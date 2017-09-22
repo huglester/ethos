@@ -56,7 +56,7 @@ loc 44ffe1 velbloud
 loc 4504ca racek
 loc 413d76 zajic
 loc 413699 netopyr
-# loc 40e99b
+loc 40e99b rejsek
 loc 413d3c dikobraz
 loc 413d29 opice
 
