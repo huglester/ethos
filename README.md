@@ -43,7 +43,7 @@ miner 450358 ewbf-zcash
 miner 44ffe1 ewbf-zcash
 
 # RENAME
-loc 8ec0de velin01
+loc 8ec0de velin02
 loc 4502ed orel
 loc 4503b1 daman
 loc 4503de zoborozec
