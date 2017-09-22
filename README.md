@@ -32,10 +32,7 @@ miner 413699 claymore
 miner 40e99b claymore
 miner 413d3c claymore
 miner 413d29 claymore
-
-# velin_pc01
 miner 8ec0de claymore
-pwr 8ec0de 6 6 6 6 6 6
 
 # GTX 1060
 miner 45038f ewbf-zcash
