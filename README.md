@@ -58,7 +58,7 @@ loc 413d76 zajic
 loc 413699 netopyr
 # loc 40e99b
 loc 413d3c dikobraz
-# loc 413d29
+loc 413d29 opice
 
 # RX 470
 # ----------------------------------------------
