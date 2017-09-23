@@ -81,8 +81,8 @@ vlt 113-2E353GU.M50 1050
 # fan 113-2E353GU.M50 100
 # -------------------------------------------------------------------
 # 6x RX 470 4GB - SAPPHIRE mining version without video outputs
-cor 113-7E353FU-M78 1100
-mem 113-7E353FU-M78 2085
+cor 113-7E353FU-M78 1236
+mem 113-7E353FU-M78 2000
 pwr 113-7E353FU-M78 5
 vlt 113-7E353FU-M78 850
 # fan 113-7E353FU-M78 100
