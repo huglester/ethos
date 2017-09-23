@@ -75,9 +75,9 @@ pwr 86.06.45.00.C3 80
 # -------------------------------------------------------------------
 # 18x RX 470 4GB - SAPPHIRE with DVI output
 cor 113-2E353GU.M50 1206
-mem 113-2E353GU.M50 2020
-pwr 113-2E353GU.M50 6
-vlt 113-2E353GU.M50 1050
+mem 113-2E353GU.M50 2000
+pwr 113-2E353GU.M50 5
+vlt 113-2E353GU.M50 850
 # fan 113-2E353GU.M50 100
 # -------------------------------------------------------------------
 # 6x RX 470 4GB - SAPPHIRE mining version without video outputs
