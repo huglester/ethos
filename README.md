@@ -8,9 +8,10 @@ ewbf-zcash=proxywallet znWNJCtEwkp94kK4hQ4fbHENKgyBST365Ng
 ewbf-zcash=proxypool1 eu.zenmine.pro:9009 
 ewbf-zcash=proxypool2 eu1.zenmine.pro:9009
 
-# ETH + SC
+# ETH
 claymore=proxywallet 0xeb881d4937b63abae988a41affd121c08cbc2a03
 claymore=proxypool1 eth-eu.dwarfpool.com:8008
+
 # dualminer enabled
 # dualminer-coin sia
 # dualminer-pool sia-eu1.nanopool.org:7777
@@ -74,18 +75,12 @@ pwr 86.06.45.00.C3 80
 # fan 86.06.45.00.C3 100
 # -------------------------------------------------------------------
 # 18x RX 470 4GB - SAPPHIRE with DVI output
+#  6x RX 470 4GB - SAPPHIRE without outputs
 cor 113-2E353GU.M50 1206
 mem 113-2E353GU.M50 2050
 pwr 113-2E353GU.M50 5
 vlt 113-2E353GU.M50 825
 # fan 113-2E353GU.M50 100
-# -------------------------------------------------------------------
-# 6x RX 470 4GB - SAPPHIRE mining version without video outputs
-# cor 113-7E353FU-M78 1250
-# mem 113-7E353FU-M78 2030
-# pwr 113-7E353FU-M78 5
-# vlt 113-7E353FU-M78 825
-# fan 113-7E353FU-M78 100
 # -------------------------------------------------------------------
 
 
