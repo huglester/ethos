@@ -10,7 +10,8 @@ ewbf-zcash=proxypool2 eu1.zenmine.pro:9009
 
 # ETH
 claymore=proxywallet 0xeb881d4937b63abae988a41affd121c08cbc2a03
-claymore=proxypool1 eth-eu.dwarfpool.com:8008
+claymore=proxypool1 eu1.ethermine.org:4444
+claymore=proxypool2 us1.ethermine.org:4444
 
 # dualminer enabled
 # dualminer-coin sia
@@ -85,7 +86,13 @@ pwr 113-2E353GU.M50 5
 vlt 113-2E353GU.M50 825
 # fan 113-2E353GU.M50 100
 # -------------------------------------------------------------------
-
+# 5x RX 470 4GB - SAPPHIRE reference cooler
+cor 113-2E353GU.M50 1206
+mem 113-2E353GU.M50 2050
+pwr 113-2E353GU.M50 5
+vlt 113-2E353GU.M50 825
+# fan 113-2E353GU.M50 100
+# -------------------------------------------------------------------
 
 # REBOOT
 reb 44fede 4
