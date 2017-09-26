@@ -34,6 +34,7 @@ miner 40e99b claymore
 miner 413d3c claymore
 miner 413d29 claymore
 miner 8ec0de claymore
+miner 413d52 claymore
 
 # GTX 1060
 miner 45038f ewbf-zcash
@@ -57,6 +58,7 @@ loc 413699 netopyr
 loc 40e99b rejsek
 loc 413d3c dikobraz
 loc 413d29 opice
+loc 413d52 osel
 
 
 # -------------------------------------------------------------------
