@@ -82,8 +82,10 @@ pwr 86.06.45.00.C3 80
 # -------------------------------------------------------------------
 # 18x RX 470 4GB - SAPPHIRE with DVI output
 #  6x RX 470 4GB - SAPPHIRE without outputs
-cor 113-2E353GU.M50 1206
-mem 113-2E353GU.M50 2050
+# for ETH
+# cor 113-2E353GU.M50 1206
+# mem 113-2E353GU.M50 2050
+mem 113-2E353GU.M50 2020
 pwr 113-2E353GU.M50 5
 vlt 113-2E353GU.M50 825
 # fan 113-2E353GU.M50 100
