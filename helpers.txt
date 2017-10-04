@@ -1,0 +1,11 @@
+# Saving GPU BIOS
+sudo atiflash -s 0 rx470xfx_2nd.rom
+
+# Flashing GPU BIOS
+sudo atiflash -f -p 0 /home/ethos/rx470xfx_moded.rom
+
+# Downloading file via SSH
+scp ethos@192.168.2.23:/home/ethos/rx470xfx.rom /Users/lukas/Desktop/
+
+# Uploading file via SSH
+scp /Users/lukas/MEGA/StormBoost/BIOS\ GPU/rx470xfx_moded.rom ethos@192.168.2.23:/home/ethos/rx470xfx_moded.rom
