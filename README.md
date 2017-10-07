@@ -120,7 +120,7 @@ vlt 40e99b 900 900 1000 1000 900 1000
 
 # velin02 8ec0de
 cor 8ec0de 1000 1000
-mem 8ec0de 2040 2040
+mem 8ec0de 2020 2020
 pwr 8ec0de 4 4
 vlt 8ec0de 825 825
 
