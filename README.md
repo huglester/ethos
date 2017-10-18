@@ -125,10 +125,10 @@ pwr 413d29 3 3 3 3 3 3
 vlt 413d29 825 825 825 825 825 825
 
 # velin02 8ec0de
-# cor 8ec0de 1000 1000
-# mem 8ec0de 2020 2020
-# pwr 8ec0de 4 4
-# vlt 8ec0de 825 825
+cor 8ec0de 1000 1000 2000
+mem 8ec0de 2020 2020 4600
+pwr 8ec0de 4 4 80
+vlt 8ec0de 825 825
 
 # orel 4502ed
 # cor 4502ed 1000 1000 1000 1000 1000
