@@ -3,10 +3,15 @@ stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 globalfan 85
 
+# ZEN - Bittrex
+claymore-zcash=proxywallet zngu5dfJViDPyMbCmqajjixyCprNr1XtQpw
+claymore-zcash=proxypool1 eu.zenmine.pro:9009
+claymore-zcash=proxypool2 eu1.zenmine.pro:9009
+
 # ZEC
-claymore-zcash=proxywallet t1gvNu7ztKvYY1oSmz7uu6VyLRd9nbnjt9J
-claymore-zcash=proxypool1 ssl://eu1-zcash.flypool.org:3443
-claymore-zcash=proxypool2 ssl://us1-zcash.flypool.org:3443
+# claymore-zcash=proxywallet t1gvNu7ztKvYY1oSmz7uu6VyLRd9nbnjt9J
+# claymore-zcash=proxypool1 ssl://eu1-zcash.flypool.org:3443
+# claymore-zcash=proxypool2 ssl://us1-zcash.flypool.org:3443
 
 # ZEN
 ewbf-zcash=proxywallet znWNJCtEwkp94kK4hQ4fbHENKgyBST365Ng
@@ -24,21 +29,21 @@ claymore=proxypool2 us1.ethermine.org:4444
 # dualminer-wallet b0c9fd2648d36d8e26b9ac2edb75c1f6320c61fb0008f66734e3ad12b55e7869d917679e91dd
 
 # RX 470
-miner 4502ed claymore
-miner 4503b1 claymore
-miner 4503de claymore
-miner 44fede claymore
-miner 45035a claymore
-miner 450444 claymore
-miner 4504ca claymore
-miner 413d76 claymore
-miner 413699 claymore
-miner 40e99b claymore
-miner 413d3c claymore
-miner 413d29 claymore
-miner 8ec0de claymore
-miner 413d52 claymore
-miner 413cf1 claymore
+miner 4502ed claymore-zcash
+miner 4503b1 claymore-zcash
+miner 4503de claymore-zcash
+miner 44fede claymore-zcash
+miner 45035a claymore-zcash
+miner 450444 claymore-zcash
+miner 4504ca claymore-zcash
+miner 413d76 claymore-zcash
+miner 413699 claymore-zcash
+miner 40e99b claymore-zcash
+miner 413d3c claymore-zcash
+miner 413d29 claymore-zcash
+miner 8ec0de claymore-zcash
+miner 413d52 claymore-zcash
+miner 413cf1 claymore-zcash
 
 # GTX 1060
 miner 45038f ewbf-zcash
