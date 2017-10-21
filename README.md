@@ -29,6 +29,7 @@ claymore=proxypool2 us1.ethermine.org:4444
 # dualminer-wallet b0c9fd2648d36d8e26b9ac2edb75c1f6320c61fb0008f66734e3ad12b55e7869d917679e91dd
 
 # RX 470
+miner 8ec0de ewbf-zcash
 miner 4502ed claymore
 miner 4503b1 claymore
 miner 4503de claymore
@@ -41,7 +42,6 @@ miner 413699 claymore
 miner 40e99b claymore
 miner 413d3c claymore
 miner 413d29 claymore
-miner 8ec0de claymore
 miner 413d52 claymore
 miner 413cf1 claymore
 
@@ -84,6 +84,13 @@ mem 86.06.45.00.C3 4600
 pwr 86.06.45.00.C3 80
 # vlt 86.06.45.00.C3 1118
 # fan 86.06.45.00.C3 100
+# -------------------------------------------------------------------
+# 1x GTX 1060 3GB - EVGA FTW - velin02
+cor 86.06.3C.00.60 2000
+mem 86.06.3C.00.60 4600
+pwr 86.06.3C.00.60 80
+# vlt 86.06.3C.00.60 950
+# fan 86.06.3C.00.60 100
 # -------------------------------------------------------------------
 # 18x RX 470 4GB - SAPPHIRE with DVI output
 # 18x RX 470 4GB - SAPPHIRE without outputs
@@ -130,10 +137,10 @@ pwr 413d29 3 3 3 3 3 3
 vlt 413d29 825 825 825 825 825 825
 
 # velin02 8ec0de
-cor 8ec0de 1000 1000 2000
-mem 8ec0de 2020 2020 4600
-pwr 8ec0de 4 4 80
-vlt 8ec0de 825 825
+# cor 8ec0de 1000 1000 2000
+# mem 8ec0de 2020 2020 4600
+# pwr 8ec0de 4 4 80
+# vlt 8ec0de 825 825
 
 # orel 4502ed
 # cor 4502ed 1000 1000 1000 1000 1000
