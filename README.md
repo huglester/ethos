@@ -5,8 +5,8 @@ globalfan 85
 
 # ZEN - Bittrex
 claymore-zcash=proxywallet zngu5dfJViDPyMbCmqajjixyCprNr1XtQpw
-claymore-zcash=proxypool1 eu.zenmine.pro:9009
-claymore-zcash=proxypool2 eu1.zenmine.pro:9009
+claymore-zcash=proxypool1 ssl://eu.zenmine.pro:9999
+claymore-zcash=proxypool2 ssl://us.zenmine.pro:9999
 
 # ZEC
 # claymore-zcash=proxywallet t1gvNu7ztKvYY1oSmz7uu6VyLRd9nbnjt9J
@@ -16,7 +16,7 @@ claymore-zcash=proxypool2 eu1.zenmine.pro:9009
 # ZEN
 ewbf-zcash=proxywallet znWNJCtEwkp94kK4hQ4fbHENKgyBST365Ng
 ewbf-zcash=proxypool1 eu.zenmine.pro:9009 
-ewbf-zcash=proxypool2 eu1.zenmine.pro:9009
+ewbf-zcash=proxypool2 us.zenmine.pro:9009
 
 # ETH
 claymore=proxywallet 0xeb881d4937b63abae988a41affd121c08cbc2a03
@@ -29,7 +29,7 @@ claymore=proxypool2 us1.ethermine.org:4444
 # dualminer-wallet b0c9fd2648d36d8e26b9ac2edb75c1f6320c61fb0008f66734e3ad12b55e7869d917679e91dd
 
 # RX 470
-miner 8ec0de claymore
+miner 8ec0de ewbf-zcash
 miner 4502ed claymore
 miner 4503b1 claymore
 miner 4503de claymore
