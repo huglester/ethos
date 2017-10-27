@@ -29,7 +29,6 @@ claymore=proxypool2 us1.ethermine.org:4444
 # dualminer-wallet b0c9fd2648d36d8e26b9ac2edb75c1f6320c61fb0008f66734e3ad12b55e7869d917679e91dd
 
 # RX 470
-miner 8ec0de claymore
 miner 4502ed claymore
 miner 4503b1 claymore
 miner 4503de claymore
@@ -49,6 +48,7 @@ miner 413cf1 claymore
 miner 45038f ewbf-zcash
 miner 450358 ewbf-zcash
 miner 44ffe1 ewbf-zcash
+miner 8ec0de ewbf-zcash
 
 # RENAME
 loc 8ec0de velin02
