@@ -20,8 +20,8 @@ ewbf-zcash=proxypool2 us.zenmine.pro:9009
 
 # ETH
 claymore=proxywallet 0xeb881d4937b63abae988a41affd121c08cbc2a03
-claymore=proxypool1 us1.ethermine.org:4444
-claymore=proxypool2 eu1.ethermine.org:4444
+claymore=proxypool1 eu1.ethermine.org:4444
+claymore=proxypool2 us1.ethermine.org:4444
 
 # dualminer enabled
 # dualminer-coin sia
