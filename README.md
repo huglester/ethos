@@ -14,13 +14,13 @@ claymore-zcash=proxypool2 ssl://us.zenmine.pro:9999
 # claymore-zcash=proxypool2 ssl://us1-zcash.flypool.org:3443
 
 # ZEN
-# ewbf-zcash=proxywallet znWNJCtEwkp94kK4hQ4fbHENKgyBST365Ng
-# ewbf-zcash=proxypool1 eu.zenmine.pro:9009 
-# ewbf-zcash=proxypool2 us.zenmine.pro:9009
+ewbf-zcash=proxywallet znWNJCtEwkp94kK4hQ4fbHENKgyBST365Ng
+ewbf-zcash=proxypool1 eu.zenmine.pro:9009 
+ewbf-zcash=proxypool2 us.zenmine.pro:9009
 
 # BTG
-ewbf-zcash=proxywallet holyx
-ewbf-zcash=proxypool1 btg.suprnova.cc:8816
+# ewbf-zcash=proxywallet holyx
+# ewbf-zcash=proxypool1 btg.suprnova.cc:8816
 
 # ETH
 claymore=proxywallet 0xeb881d4937b63abae988a41affd121c08cbc2a03
