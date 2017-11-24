@@ -1,7 +1,9 @@
-maxgputemp 90 
+maxgputemp 85 
+globalfan 80
 stratumproxy enabled
-flags --cl-global-work 8192 --farm-recheck 200
-globalfan 85
+flags --farm-recheck 100
+globalminer claymore
+autoreboot 12
 
 # ZEN - Bittrex
 claymore-zcash=proxywallet zngu5dfJViDPyMbCmqajjixyCprNr1XtQpw
