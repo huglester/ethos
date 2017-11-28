@@ -16,9 +16,9 @@ claymore-zcash=proxypool2 ssl://us.zenmine.pro:9999
 # claymore-zcash=proxypool2 ssl://us1-zcash.flypool.org:3443
 
 # ZEN
-ewbf-zcash=proxywallet znWNJCtEwkp94kK4hQ4fbHENKgyBST365Ng
-ewbf-zcash=proxypool1 eu.zenmine.pro:9009 
-ewbf-zcash=proxypool2 us.zenmine.pro:9009
+dstm-zcash=proxywallet znWNJCtEwkp94kK4hQ4fbHENKgyBST365Ng
+dstm-zcash=proxypool1 eu.miningspeed.com:3063
+# dstm-zcash=proxypool2 us.zenmine.pro:9009
 
 # BTG
 # ewbf-zcash=proxywallet holyx
@@ -51,10 +51,10 @@ miner 413d52 claymore
 miner 413cf1 claymore
 
 # GTX 1060
-miner 45038f ewbf-zcash
-miner 450358 ewbf-zcash
-miner 44ffe1 ewbf-zcash
-miner 8ec0de ewbf-zcash
+miner 45038f dstm-zcash
+miner 450358 dstm-zcash
+miner 44ffe1 dstm-zcash
+miner 8ec0de dstm-zcash
 
 # RENAME
 loc 8ec0de velin02
