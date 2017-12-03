@@ -51,6 +51,7 @@ miner 413d52 claymore
 miner 413cf1 claymore
 miner 47b178 claymore
 miner 47b67a claymore
+miner 47b4f4 claymore
 
 # GTX 1060
 miner 45038f dstm-zcash
@@ -79,6 +80,7 @@ loc 413d52 osel
 loc 413cf1 delfin
 loc 47b178 zebra
 loc 47b67a nosorozec
+loc 47b4f4 veverka
 
 # -------------------------------------------------------------------
 # 40x RX 470 8GB - XFX with backplate
