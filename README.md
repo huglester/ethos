@@ -54,13 +54,12 @@ miner 47b67a claymore
 miner 47b4f4 claymore
 miner 47b682 claymore
 miner 47b696 claymore
+miner 8ec0de claymore
 
 # GTX 1060
 miner 45038f dstm-zcash
 miner 450358 dstm-zcash
 miner 44ffe1 dstm-zcash
-
-miner 8ec0de dstm-zcash
 miner 00254e dstm-zcash
 
 # RENAME
@@ -86,8 +85,7 @@ loc 47b67a nosorozec
 loc 47b4f4 veverka
 loc 47b682 rys
 loc 47b696 zebu
-
-loc 8ec0de velin02
+loc 8ec0de rak
 loc 00254e zubr
 
 # -------------------------------------------------------------------
