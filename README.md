@@ -2,7 +2,7 @@ maxgputemp 85
 globalfan 80
 stratumproxy enabled
 flags --farm-recheck 100
-globalminer claymore
+globalminer sgminer-gm-xmr
 autoreboot 12
 
 # ZEN - Bittrex
@@ -29,32 +29,36 @@ claymore=proxywallet 0xeb881d4937b63abae988a41affd121c08cbc2a03
 claymore=proxypool1 eu1.ethermine.org:4444
 claymore=proxypool2 us1.ethermine.org:4444
 
+# Electroneum ETN
+sgminer-gm-xmr=proxywallet etnjwpeTAR1YzVroyMebzAN4w4M54R8NFDQN9fAzT251NNKBK3oKiephnF6pNJC2daCcZvnsqaZ9xY5mHXUM4Vzp7T565vMJsj
+sgminer-gm-xmr=proxypool1 pool.electroneum.hashvault.pro:5555
+
 # dualminer enabled
 # dualminer-coin sia
 # dualminer-pool sia-eu1.nanopool.org:7777
 # dualminer-wallet b0c9fd2648d36d8e26b9ac2edb75c1f6320c61fb0008f66734e3ad12b55e7869d917679e91dd
 
 # RX 470
-miner 4502ed claymore
-miner 4503b1 claymore
-miner 4503de claymore
-miner 44fede claymore
-miner 45035a claymore
-miner 450444 claymore
-miner 4504ca claymore
-miner 413d76 claymore
-miner 413699 claymore
-miner 40e99b claymore
-miner 413d3c claymore
-miner 413d29 claymore
-miner 413d52 claymore
-miner 413cf1 claymore
-miner 47b178 claymore
-miner 47b67a claymore
-miner 47b4f4 claymore
-miner 47b682 claymore
-miner 47b696 claymore
-miner 8ec0de claymore
+miner 4502ed sgminer-gm-xmr
+miner 4503b1 sgminer-gm-xmr
+miner 4503de sgminer-gm-xmr
+miner 44fede sgminer-gm-xmr
+miner 45035a sgminer-gm-xmr
+miner 450444 sgminer-gm-xmr
+miner 4504ca sgminer-gm-xmr
+miner 413d76 sgminer-gm-xmr
+miner 413699 sgminer-gm-xmr
+miner 40e99b sgminer-gm-xmr
+miner 413d3c sgminer-gm-xmr
+miner 413d29 sgminer-gm-xmr
+miner 413d52 sgminer-gm-xmr
+miner 413cf1 sgminer-gm-xmr
+miner 47b178 sgminer-gm-xmr
+miner 47b67a sgminer-gm-xmr
+miner 47b4f4 sgminer-gm-xmr
+miner 47b682 sgminer-gm-xmr
+miner 47b696 sgminer-gm-xmr
+miner 8ec0de sgminer-gm-xmr
 
 # GTX 1060
 miner 45038f dstm-zcash
