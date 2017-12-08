@@ -32,6 +32,9 @@ claymore=proxypool2 us1.ethermine.org:4444
 # Electroneum ETN
 sgminer-gm-xmr=proxywallet etnjwpeTAR1YzVroyMebzAN4w4M54R8NFDQN9fAzT251NNKBK3oKiephnF6pNJC2daCcZvnsqaZ9xY5mHXUM4Vzp7T565vMJsj
 sgminer-gm-xmr=proxypool1 pool.electroneum.hashvault.pro:5555
+ccminer=flags –a cryptonight 
+ccminer=proxywallet etnjwpeTAR1YzVroyMebzAN4w4M54R8NFDQN9fAzT251NNKBK3oKiephnF6pNJC2daCcZvnsqaZ9xY5mHXUM4Vzp7T565vMJsj
+ccminer=proxypool1 pool.electroneum.hashvault.pro:5555
 
 # dualminer enabled
 # dualminer-coin sia
@@ -61,10 +64,10 @@ miner 47b696 sgminer-gm-xmr
 miner 8ec0de sgminer-gm-xmr
 
 # GTX 1060
-miner 45038f dstm-zcash
-miner 450358 dstm-zcash
-miner 44ffe1 dstm-zcash
-miner 00254e dstm-zcash
+miner 45038f ccminer
+miner 450358 ccminer
+miner 44ffe1 ccminer
+miner 00254e ccminer
 
 # RENAME
 loc 4502ed orel
