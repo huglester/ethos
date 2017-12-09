@@ -3,7 +3,7 @@ globalfan 80
 stratumproxy enabled
 flags --farm-recheck 100
 globalminer sgminer-gm-xmr
-autoreboot 12
+# autoreboot 12
 
 # ZEN - Bittrex
 claymore-zcash=proxywallet zngu5dfJViDPyMbCmqajjixyCprNr1XtQpw
@@ -157,10 +157,10 @@ pwr 40e99b 5 5 5 5 5 5
 vlt 40e99b 900 900 1000 1000 900 1000
 
 # opice 413d29 - wasnt stable on default settings
-cor 413d29 1216 1126 1126 1126 1126 1126
-mem 413d29 2000 2000 2000 2000 2000 2000
-pwr 413d29 3 3 3 3 3 3
-vlt 413d29 825 825 825 825 825 825
+# cor 413d29 1216 1126 1126 1126 1126 1126
+# mem 413d29 2000 2000 2000 2000 2000 2000
+# pwr 413d29 3 3 3 3 3 3
+# vlt 413d29 825 825 825 825 825 825
 
 # velin02 8ec0de
 # cor 8ec0de 1000 1000 2000
