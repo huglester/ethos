@@ -31,7 +31,7 @@ claymore=proxypool2 us1.ethermine.org:4444
 
 # Electroneum ETN
 sgminer-gm-xmr=proxywallet etnjwpeTAR1YzVroyMebzAN4w4M54R8NFDQN9fAzT251NNKBK3oKiephnF6pNJC2daCcZvnsqaZ9xY5mHXUM4Vzp7T565vMJsj
-sgminer-gm-xmr=proxypool1 pool.electroneum.hashvault.pro:5555
+sgminer-gm-xmr=proxypool1 pool.electroneum.hashvault.pro:7777
 ccminer=flags –a cryptonight 
 ccminer=proxywallet etnjwpeTAR1YzVroyMebzAN4w4M54R8NFDQN9fAzT251NNKBK3oKiephnF6pNJC2daCcZvnsqaZ9xY5mHXUM4Vzp7T565vMJsj
 ccminer=proxypool1 pool.electroneum.hashvault.pro:5555
