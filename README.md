@@ -40,8 +40,7 @@ ccminer=flags –a cryptonight
 ccminer=proxywallet etnjwpeTAR1YzVroyMebzAN4w4M54R8NFDQN9fAzT251NNKBK3oKiephnF6pNJC2daCcZvnsqaZ9xY5mHXUM4Vzp7T565vMJsj
 ccminer=proxypool1 pool.electroneum.hashvault.pro:5555
 ccminer=proxypool2 pool.electroneum.space:1337
-ccminer=poolpass1 x
-ccminer=poolpass2 x
+
 
 # dualminer enabled
 # dualminer-coin sia
