@@ -2,7 +2,7 @@ maxgputemp 85
 globalfan 80
 stratumproxy enabled
 flags --farm-recheck 100
-globalminer claymore-xmr
+globalminer sgminer-gm-xmr
 # autoreboot 12
 
 # ZEN - Bittrex
@@ -30,13 +30,18 @@ claymore=proxypool1 eu1.ethermine.org:4444
 claymore=proxypool2 us1.ethermine.org:4444
 
 # Electroneum ETN
-claymore-xmr=proxywallet etnjwpeTAR1YzVroyMebzAN4w4M54R8NFDQN9fAzT251NNKBK3oKiephnF6pNJC2daCcZvnsqaZ9xY5mHXUM4Vzp7T565vMJsj
-claymore-xmr=proxypool1 pool.electroneum.space:5555
-claymore-xmr=proxypool2 pool.electroneum.hashvault.pro:5555
+sgminer-gm-xmr=proxywallet etnjwpeTAR1YzVroyMebzAN4w4M54R8NFDQN9fAzT251NNKBK3oKiephnF6pNJC2daCcZvnsqaZ9xY5mHXUM4Vzp7T565vMJsj
+sgminer-gm-xmr=proxypool1 etn.easyhash.io:3632
+sgminer-gm-xmr=proxypool2 pool.electroneum.hashvault.pro:5555
+sgminer-gm-xmr=poolpass1 x
+sgminer-gm-xmr=poolpass2 x
+
 ccminer=flags –a cryptonight 
 ccminer=proxywallet etnjwpeTAR1YzVroyMebzAN4w4M54R8NFDQN9fAzT251NNKBK3oKiephnF6pNJC2daCcZvnsqaZ9xY5mHXUM4Vzp7T565vMJsj
-ccminer=proxypool1 pool.electroneum.space:5555
+ccminer=proxypool1 etn.easyhash.io:3632
 ccminer=proxypool2 pool.electroneum.hashvault.pro:5555
+ccminer=poolpass1 x
+ccminer=poolpass2 x
 
 # dualminer enabled
 # dualminer-coin sia
@@ -44,26 +49,26 @@ ccminer=proxypool2 pool.electroneum.hashvault.pro:5555
 # dualminer-wallet b0c9fd2648d36d8e26b9ac2edb75c1f6320c61fb0008f66734e3ad12b55e7869d917679e91dd
 
 # RX 470
-miner 4502ed claymore-xmr
-miner 4503b1 claymore-xmr
-miner 4503de claymore-xmr
-miner 44fede claymore-xmr
-miner 45035a claymore-xmr
-miner 450444 claymore-xmr
-miner 4504ca claymore-xmr
-miner 413d76 claymore-xmr
-miner 413699 claymore-xmr
-miner 40e99b claymore-xmr
-miner 413d3c claymore-xmr
-miner 413d29 claymore-xmr
-miner 413d52 claymore-xmr
-miner 413cf1 claymore-xmr
-miner 47b178 claymore-xmr
-miner 47b67a claymore-xmr
-miner 47b4f4 claymore-xmr
-miner 47b682 claymore-xmr
-miner 47b696 claymore-xmr
-miner 8ec0de claymore-xmr
+miner 4502ed sgminer-gm-xmr
+miner 4503b1 sgminer-gm-xmr
+miner 4503de sgminer-gm-xmr
+miner 44fede sgminer-gm-xmr
+miner 45035a sgminer-gm-xmr
+miner 450444 sgminer-gm-xmr
+miner 4504ca sgminer-gm-xmr
+miner 413d76 sgminer-gm-xmr
+miner 413699 sgminer-gm-xmr
+miner 40e99b sgminer-gm-xmr
+miner 413d3c sgminer-gm-xmr
+miner 413d29 sgminer-gm-xmr
+miner 413d52 sgminer-gm-xmr
+miner 413cf1 sgminer-gm-xmr
+miner 47b178 sgminer-gm-xmr
+miner 47b67a sgminer-gm-xmr
+miner 47b4f4 sgminer-gm-xmr
+miner 47b682 sgminer-gm-xmr
+miner 47b696 sgminer-gm-xmr
+miner 8ec0de sgminer-gm-xmr
 
 # GTX 1060
 miner 45038f ccminer
