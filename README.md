@@ -70,10 +70,10 @@ miner 47b696 sgminer-gm-xmr
 miner 8ec0de sgminer-gm-xmr
 
 # GTX 1060
-miner 45038f ccminer
-miner 450358 ccminer
-miner 44ffe1 ccminer
-miner 00254e ccminer
+miner 45038f dstm-zcash
+miner 450358 dstm-zcash
+miner 44ffe1 dstm-zcash
+miner 00254e dstm-zcash
 
 # RENAME
 loc 4502ed orel
