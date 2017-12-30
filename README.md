@@ -36,12 +36,12 @@ claymore=proxypool2 us1.ethermine.org:4444
 # sgminer-gm-xmr=poolpass1 x
 # sgminer-gm-xmr=poolpass2 x
 
-# Sumokoin SUMO
+# Sumokoin SUMO and ETN
 sgminer-gm-xmr=proxywallet Sumoo5GN8J8hLAv75q1VGKUk99gChBfhmB3NNxUrcVvUeGx57pATzsfXotghSLsPMMMbg5krhsQs6CxMRNe8L6nkZ2v2dtB7yvX
 sgminer-gm-xmr=proxypool1 pool.sumokoin.hashvault.pro:5555
-# sgminer-gm-xmr=proxypool2 pool.sumokoin.hashvault.pro:5555
+sgminer-gm-xmr=proxypool2 sumo.soyminero.es:3333
 sgminer-gm-xmr=poolpass1 x
-# sgminer-gm-xmr=poolpass2 x
+sgminer-gm-xmr=poolpass2 x
 
 ccminer=flags –a cryptonight 
 ccminer=proxywallet etnjwpeTAR1YzVroyMebzAN4w4M54R8NFDQN9fAzT251NNKBK3oKiephnF6pNJC2daCcZvnsqaZ9xY5mHXUM4Vzp7T565vMJsj
