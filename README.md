@@ -81,8 +81,10 @@ miner 45038f dstm-zcash
 miner 450358 dstm-zcash
 miner 44ffe1 dstm-zcash
 miner 00254e dstm-zcash
+miner 4a1125 dstm-zcash
 
 # RENAME
+loc 4a1125 velin
 loc 4502ed orel
 loc 4503b1 daman
 loc 4503de zoborozec
@@ -136,6 +138,11 @@ cor 86.02.40.00.1C 2000
 mem 86.02.40.00.1C 4300
 pwr 86.02.40.00.1C 200
 # -------------------------------------------------------------------
+# 1x 1080
+cor 86.06.59.00.2C 2000
+mem 86.06.59.00.2C 4300
+# pwr 86.06.59.00.2C 200
+# -------------------------------------------------------------------
 # 18x RX 470 4GB - SAPPHIRE with DVI output
 # 18x RX 470 4GB - SAPPHIRE without outputs
 # for ETH
@@ -147,9 +154,9 @@ vlt 113-2E353GU.M50 900
 # -------------------------------------------------------------------
 # 4x RX 470 4GB - SAPPHIRE reference cooler
 cor 113-349PRO4-U45 1150
-mem 113-349PRO4-U45 2050
+mem 113-349PRO4-U45 2000
 pwr 113-349PRO4-U45 5
-vlt 113-349PRO4-U45 900
+vlt 113-349PRO4-U45 925
 # fan 113-349PRO4-U45 100
 # -------------------------------------------------------------------
 # 5x RX 470 4GB - SAPPHIRE reference cooler
@@ -169,22 +176,16 @@ vlt 113-349PRO4-U45 900
 
 # mixed rigs
 # rejsek 40e99b
-cor 40e99b 1150 1150 1250 1250 1150 1250
-mem 40e99b 1800 2050 2050 2050 2050 2050
-pwr 40e99b 5 5 5 5 5 5 
-vlt 40e99b 900 900 1000 1000 900 1000
+# cor 40e99b 1150 1150 1250 1250 1150 1250
+# mem 40e99b 1800 2050 2050 2050 2050 2050
+# pwr 40e99b 5 5 5 5 5 5 
+# vlt 40e99b 900 900 1000 1000 900 1000
 
 # opice 413d29 - wasnt stable on default settings
 # cor 413d29 1216 1126 1126 1126 1126 1126
 # mem 413d29 2000 2000 2000 2000 2000 2000
 # pwr 413d29 3 3 3 3 3 3
 # vlt 413d29 825 825 825 825 825 825
-
-# velin02 8ec0de
-# cor 8ec0de 1000 1000 2000
-# mem 8ec0de 2020 2020 4600
-# pwr 8ec0de 4 4 80
-# vlt 8ec0de 825 825
 
 # orel 4502ed
 # cor 4502ed 1000 1000 1000 1000 1000
