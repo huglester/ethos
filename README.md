@@ -18,6 +18,7 @@ claymore-zcash=proxypool2 ssl://us.zenmine.pro:9999
 # ZEN
 dstm-zcash=proxywallet znWNJCtEwkp94kK4hQ4fbHENKgyBST365Ng
 dstm-zcash=proxypool1 eu.miningspeed.com:3063
+dstm-zcash=proxypool2 us.miningspeed.com:3063
 # dstm-zcash=proxypool2 us.zenmine.pro:9009
 
 # BTG
